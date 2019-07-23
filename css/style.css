@@ -154,7 +154,8 @@ footer {
         font-size: 1rem;
         text-align: center;
     }
- .wrapper {
+
+    .wrapper {
         margin: 0;
     }
 
@@ -165,6 +166,10 @@ footer {
         overflow: hidden;
         display: flex;
         justify-content: space-around;
+    }
+
+    .content p {
+        font-size: 1rem;
     }
 
     li a {
@@ -207,8 +212,8 @@ footer {
     .wrapper {
         margin: 0;
     }
-    
-    .content p{
+
+    .content p {
         font-size: 1rem;
     }
 
@@ -234,8 +239,8 @@ footer {
     .fas {
         font-size: 205%;
     }
-    
-     footer {
+
+    footer {
         clear: both;
         font-size: 1rem;
     }
