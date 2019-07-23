@@ -136,6 +136,7 @@ footer {
     background-color: #17BEBB;
     padding-top: 2%;
     padding-bottom: 2%;
+    color: #fff;
 }
 
 .social-media {
@@ -153,8 +154,7 @@ footer {
         font-size: 1rem;
         text-align: center;
     }
-
-    .wrapper {
+ .wrapper {
         margin: 0;
     }
 
@@ -188,6 +188,7 @@ footer {
 
     footer {
         clear: both;
+        font-size: 1rem;
     }
 
     .fab,
@@ -206,6 +207,10 @@ footer {
     .wrapper {
         margin: 0;
     }
+    
+    .content p{
+        font-size: 1rem;
+    }
 
     ul {
         list-style-type: none;
@@ -214,6 +219,7 @@ footer {
         overflow: hidden;
         display: flex;
         justify-content: space-around;
+        font-size: 1rem;
     }
 
     li a {
@@ -227,5 +233,10 @@ footer {
     .fab,
     .fas {
         font-size: 205%;
+    }
+    
+     footer {
+        clear: both;
+        font-size: 1rem;
     }
 }
