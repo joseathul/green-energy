@@ -28,16 +28,16 @@ body {
 
 /****Styling the masthead and heading - start****/
 .masthead {
-    background-image: url("../images/rge.jpg");
+    background-image: url("../img/rge.jpg");
     background-size: cover;
     padding: 1% 0 1% 0;
-    
+
 }
 
 .masthead h1 {
     font-family: 'Proza Libre', sans-serif;
     text-align: left;
-    margin-left: 12.5%;
+    margin-left: 3.5%;
     font-size: 0.75rem;
     line-height: 1.5;
     color: #3A5A40;
@@ -51,7 +51,7 @@ ul {
     list-style: none;
     font-family: 'Proza Libre', sans-serif;
     font-size: 0.75rem;
-    line-height: 1.5;    
+    line-height: 1.5;
 }
 
 li {
@@ -108,6 +108,7 @@ button {
     display: inline-block;
     font-size: 0.75rem;
     cursor: pointer;
+    padding: 10px 20px 10px 20px;
 }
 
 button:nth-child(2),
@@ -116,7 +117,7 @@ button:last-child {
 }
 
 button active {
-    background-color: aqua;
+    background-color: #17BEBB;
 }
 
 img {
@@ -129,6 +130,7 @@ img {
 
 /*****footer - start*****/
 footer {
+    clear: both;
     text-align: center;
     font-size: 0.75rem;
     background-color: #17BEBB;
@@ -144,9 +146,86 @@ footer {
 
 /*****footer - end*****/
 
+
 @media only screen and (min-width: 30rem) and (max-width: 60rem) {
-    body {
-        background-color: brown;
+
+    .masthead h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .wrapper {
+        margin: 0;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    li a {
+        display: block;
+        color: #17BEBB;
+        text-align: center;
+        padding: 14px 16px;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 1rem;
+        padding: 20px;
+    }
+
+    img {
+        float: left;
+        width: 25%;
+        height:
+    }
+
+    footer {
+        clear: both;
+    }
+
+    .fab,
+    .fas {
+        font-size: 205%;
     }
 }
 
+
+@media only screen and (min-width: 61rem) {
+    .masthead h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .wrapper {
+        margin: 0;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    li a {
+        display: block;
+        color: #17BEBB;
+        font-size: 1rem;
+        text-align: center;
+        padding: 14px 16px;
+    }
+
+    .fab,
+    .fas {
+        font-size: 205%;
+    }
+}
