@@ -1,0 +1,152 @@
+/****Google Fonts - start****/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Proza+Libre&display=swap');
+/****Google Fonts - end****/
+
+/*font-family: 'Open Sans', sans-serif; -- body
+font-family: 'Proza Libre', sans-serif; --heading */
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Proza Libre', sans-serif;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    max-width: 60rem;
+}
+
+.wrapper {
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+/****Styling the masthead and heading - start****/
+.masthead {
+    background-image: url("../images/rge.jpg");
+    background-size: cover;
+    padding: 1% 0 1% 0;
+    
+}
+
+.masthead h1 {
+    font-family: 'Proza Libre', sans-serif;
+    text-align: left;
+    margin-left: 12.5%;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: #3A5A40;
+}
+
+/****Styling the masthead and heading - end****/
+
+/****Styling the navigation - start****/
+
+ul {
+    list-style: none;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;    
+}
+
+li {
+    padding: 2.2% 0 0 0;
+}
+
+li a {
+    color: #17BEBB;
+    text-decoration: none;
+}
+
+li a:hover {
+    border-bottom: 1px solid #FF0000;
+}
+
+
+/****Styling the navigation - end****/
+
+
+/****pages - start*****/
+.pages {
+    margin-top: 2%;
+}
+
+.pages h2 {
+    font-size: 0.75rem;
+    color: #3A5A40;
+    margin-bottom: 1%;
+}
+
+.content p {
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+.value {
+    margin-top: 2%;
+}
+
+
+.btns,
+.content {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+button {
+    font-family: 'Proza Libre', sans-serif;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+button:nth-child(2),
+button:last-child {
+    margin-left: 2%;
+}
+
+button active {
+    background-color: aqua;
+}
+
+img {
+    float: left;
+    width: 100%;
+    margin: 0 5% 2% 0;
+}
+
+/****pages - end*****/
+
+/*****footer - start*****/
+footer {
+    text-align: center;
+    font-size: 0.75rem;
+    background-color: #17BEBB;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.social-media {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*****footer - end*****/
+
+@media only screen and (min-width: 30rem) and (max-width: 60rem) {
+    body {
+        background-color: brown;
+    }
+}
+
